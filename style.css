@@ -1,1 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-button, .email-button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.download-button {
+  background-color: #ccc;
+}
+
+.email-button {
+  background-color: #eee;
+}
 
